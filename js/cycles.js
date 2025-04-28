@@ -21,3 +21,12 @@ for (let q = 1; q < 100; q += 1) {
     console.log(q);
   }
 }
+let w = 1;
+while (w <= 20) {
+  if (w % 3 === 0) {
+    w++;
+    continue;
+  }
+  console.log(i);
+  w++;
+}
