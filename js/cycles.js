@@ -24,9 +24,9 @@ for (let q = 1; q < 100; q += 1) {
 let w = 1;
 while (w <= 20) {
   if (w % 3 === 0) {
-    w++;
+    w += 1;
     continue;
   }
   console.log(w);
-  w++;
+  w += 1;
 }
