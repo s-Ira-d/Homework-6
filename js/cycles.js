@@ -27,6 +27,6 @@ while (w <= 20) {
     w++;
     continue;
   }
-  console.log(i);
+  console.log(w);
   w++;
 }
